@@ -1,0 +1,74 @@
+body{
+    font-family: 'Montserrat', sans-serif !important;
+    height: auto;
+    /*overflow: hidden;*/
+    background-color: #fff;
+}
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 99;
+}
+#status {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-image: url(https://raw.githubusercontent.com/niklausgerber/PreLoadMe/master/img/status.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -100px 0 0 -100px;
+}
+
+/* Home Page */
+.header .container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    background-color: #777;
+}
+.clearfix {
+    clear: both;
+    top: 0;
+}
+.hero-banner {
+    margin-top: 7px;
+    background-image: url(../img/banner/pexels-photo-346731.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 200px 50px 220px 180px;
+}
+.hero-promo {
+    font-size: 18px;
+}
+.org {
+    font-size: 45px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.services-text p {
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.hero-banner .btn {
+    background-color: transparent;
+    border: 1px solid #333;
+    border-radius: 0px;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 70px;
+}
+.hero-banner .btn:hover {
+    background-color: #000;
+    color: #e3e3e3;
+}
+/* Home Page */
